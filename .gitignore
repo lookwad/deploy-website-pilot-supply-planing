@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.vercel/
+.env
+.env.*
+!.env.example
+desktop.ini
+factory_planning_v20*.html
+public/config.js
+supabase/*.private.sql
+# real data / local artifacts — never publish
+result/
+*.xlsx
+*.xls
+*.csv
+.DS_Store
+__pycache__/
